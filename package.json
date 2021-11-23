@@ -1,6 +1,6 @@
 {
   "name": "koatty_views",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "description": "Koatty Extension Project",
   "scripts": {
     "build": "del-cli --force dist && tsc",
