@@ -19,11 +19,13 @@
   "devDependencies": {
     "@commitlint/cli": "^17.x.x",
     "@commitlint/config-conventional": "^17.x.x",
+    "@grpc/grpc-js": "^1.6.7",
     "@types/jest": "^27.x.x",
     "@types/koa": "^2.x.x",
     "@types/koa-static-cache": "^5.x.x",
     "@types/lru-cache": "^7.x.x",
     "@types/node": "^17.x.x",
+    "@types/ws": "^8.5.3",
     "@typescript-eslint/eslint-plugin": "^5.x.x",
     "@typescript-eslint/parser": "^5.x.x",
     "conventional-changelog-cli": "^2.x.x",
