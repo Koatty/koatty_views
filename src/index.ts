@@ -3,8 +3,9 @@
  * @Usage:
  * @Author: xxx
  * @Date: 2020-12-24 10:32:06
- * @LastEditTime: 2021-11-20 22:44:45
+ * @LastEditTime: 2023-12-20 19:57:13
  */
+import { Middleware } from "koa";
 import kosViews from "koa-views";
 import { Koatty } from "koatty_core";
 
@@ -64,7 +65,7 @@ const defaultOptions: OptionsInterface = {
  * @param {Application} app
  * @returns {*}  {Koa.Middleware}
  */
-export function Views(options: OptionsInterface, app: Koatty) {
+export function Views(options: OptionsInterface, app: Koatty): Middleware {
     const opt = { ...defaultOptions, ...options };
     return kosViews(opt.root, opt.opts);
 }
